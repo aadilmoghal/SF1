@@ -28,7 +28,7 @@ SFIA PROJECT 2021
 
 Technology i will be using:
 
-    Kanban Board: Jira
+    Kanban Board: Jiraaaa
 
     Database: GCP Managed SQL Server
 
