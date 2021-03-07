@@ -15,7 +15,6 @@ SFIA PROJECT 2021
 5. [ERD](#ERD)
 6. [Front End](#Front_End)
 7. [Back End](#Back_End)
-8. [CI Pipeline](#CI_Pipeline)
 9. [Project Tracking](#Project_Tracking)
 10. [RiskAssessment](#Risk_Assessment)
 11. [Testing](#Testing)
@@ -75,6 +74,8 @@ To create a CRUD application with utilisation of supporting tools, methodologies
     Application deployed to a cloud-based virtual machine
 
 # General Approach
+
+My approach is to create a food basket that allows users to insert the name of their favourite food and 
 # ERD
 
 
@@ -86,11 +87,27 @@ To create a CRUD application with utilisation of supporting tools, methodologies
 
 # Front End
 # Back End
-# CI Pipeline
 # Project Tracking
+
+Jira was used to track the progress on my work
+- what is jira
+- add screen shot
+- benefits of jira
 # Risk Assessment
+
+
 # Testing
+
+
 # Improvements
+
+what could have done
+
+better interface with better colours
+
+nav bar could be included to help navigation
+
+
 # Bibliography
 
-
+Aadil Moghal
