@@ -1,0 +1,133 @@
+#title {
+  margin: 25px;
+  margin-top: 40px;
+  font-size: 53px;
+  font-family: cursive, "Lucida Sans", serif;
+}
+/* background options */
+body {
+  font-family: Georgia, "Times New Roman", Times, serif, "Lucida Sans", Arial,
+    sans-serif;
+  color: rgb(0, 0, 0);
+  background-color: rgb(177, 177, 177);
+  background-image: url("https://i.ibb.co/mRWZjM2/8-A40-AC9-C-7179-4298-878-C-FFC9-D354-D205.jpg");
+  /* background-repeat: no-repeat; */
+  background-size: 70%;
+}
+.form-group {
+  margin: 20px;
+}
+/* Add Button to basket proerties */
+.button-add {
+  margin-left: 20px;
+  border: none;
+  background-color: #e01a1a;
+  border-radius: 15px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 1px 80px;
+  display: block;
+  font-size: 19px;
+  text-decoration: aqua;
+}
+/* add to basket button */
+.button-add:active {
+  background-color: #1b1010;
+  box-shadow: 200 3px rgb(24, 187, 228);
+  transform: translateX(5px);
+}
+.form-inputs {
+  margin-top: 31px;
+  border-radius: 9px;
+}
+/* title box settings */
+#nameInput {
+  width: 25%;
+  margin-top: 5px;
+  border: none;
+  padding: 5px 10px;
+}
+#priceInput {
+  width: 25%;
+  margin-top: 5px;
+  border: none;
+  padding: 5px 10px;
+}
+/* delte and update box settings */
+.card {
+  width: 25%;
+  background-color: rgb(94, 192, 107);
+  margin-left: 20px;
+  border: black;
+  border-radius: 2px;
+  opacity: 0.9;
+}
+/* delete and update buttons settings */
+.card-button {
+  margin-left: 0px;
+  margin-right: 12px;
+  background-color: rgb(236, 85, 85);
+  border: none;
+  color: rgb(255, 255, 255);
+  padding: 13px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 19px;
+  border-radius: 44px;
+}
+.card-button:active {
+  background-color: #ee1616;
+  box-shadow: 1 4px rgb(248, 48, 48);
+  transform: translateY(8px);
+}
+/* update card */
+.update-card {
+  width: 25%;
+  background-color: rgb(94, 192, 107);
+  margin-left: 20px;
+  opacity: 0.9;
+}
+/* update box inputs size */
+.update-input {
+  width: 83%;
+  padding: 5px 10px;
+  margin: 20px;
+  border-radius: 2px;
+  border: none;
+}
+/* update button settings */
+.button-update {
+  margin-top: 5px;
+  margin-left: 20px;
+  margin-bottom: 12px;
+  background-color: rgb(236, 85, 85);
+  border: none;
+  color: rgb(255, 255, 255);
+  padding: 13px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 19px;
+  border-radius: 44px;
+}
+.button-update:active {
+  background-color: #ee1616;
+  box-shadow: 1 4px rgb(248, 48, 48);
+  transform: translateY(9px);
+}
+.price-body {
+  width: 60%;
+  background-color: rgb(0, 22, 223);
+  margin-left: 40px;
+  border-radius: 21px;
+}
+.totalDiv {
+  margin-left: 20px;
+  background-color: rgb(255, 255, 255);
+  /* margin-left: auto; */
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 15%;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>     
+<html lang="en">
+    <head>
+        <meta charset="UTF 8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <title>Food Basket</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" 
+        rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <h1 id="title"> FOOD BASKET</h1>
+        <div>
+            <form id="createForm">
+                <div class="form-group">
+                    <div class="form-inputs">
+                        <label for="nameInput">Item</label>
+                        <br>
+                        <input id="nameInput" name="name" placeholder="Title.." autocomplete="off"/>
+            
+                    </div>
+                    <div class="form-inputs">
+                        <label for="priceInput">Price</label>
+                        <br>
+                        <input id="priceInput" name="price" placeholder="£" autocomplete="off"/>
+                    </div>                               
+                </div>     
+                <button class="button-add" type="submit">Add to Basket</button>    
+            </form>
+        </div>
+        <br>
+        <div class="totalDiv">
+            <h3 id="totalPrice"></h3>
+        </div>
+        <br>
+        <div id="readDiv">
+    
+        </div>
+        <form id="updateForm">
+
+        </form>
+
+        <script src="script.js"></script>
+    </body>
+
+</html>
