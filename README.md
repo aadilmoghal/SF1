@@ -4,7 +4,7 @@
 
 
 
-SFIA PROJECT 2021	
+SFIA PROJECT 1	
 
 ## Index
 
@@ -13,21 +13,26 @@ SFIA PROJECT 2021
 3. [Scope](#Scope)
 4. [General Approach](#General_Approach)  
 5. [ERD](#ERD)
-6. [Front End](#Front_End)
-7. [Back End](#Back_End)
-9. [Project Tracking](#Project_Tracking)
-10. [RiskAssessment](#Risk_Assessment)
-11. [Testing](#Testing)
-12. [Improvements](#Improvements)
-13. [Bibliography](#Bibliography)
+6. [Project Tracking](#Project_Tracking)
+7. [Front End](#Front_End)
+8. [Back End](#Back_End)
+9. [Risk Assessment](#Risk_Assessment)
+10. [Testing](#Testing)
+11. [Improvements](#Improvements)
+12. [Bibliography](#Bibliography)
 
 
 
 # Introduction
 
-Technology i will be using:
+To create a CRUD application with utilisation of supporting tools, methodologies and technologies that encapsulate all core modules covered during training.
 
-    Kanban Board: Jiraaaa
+
+# Technology 
+
+The technologies I will be using to create my CRUD application are: 
+
+    Kanban Board: Jira
 
     Database: GCP Managed SQL Server
 
@@ -37,17 +42,11 @@ Technology i will be using:
 
     Unit Tests: JUnit and Mockito
 
-    Integration Tests: Selenium
-
     Version Control: Git
-
-    CI Server: CircleCi
 
     Cloud Server: GCP Virtual Machine
 
-# Project Brief
 
-To create a CRUD application with utilisation of supporting tools, methodologies and technologies that encapsulate all core modules covered during training.
 
 # Scope
 
@@ -59,7 +58,7 @@ To create a CRUD application with utilisation of supporting tools, methodologies
 
     A relational database used to store data persistently for the project.
 
-    A functional application created in the OOP language, following best practices and design principles, that you have covered during training, this application needs to meet the requirements set on your Kanban Board
+    A functional application created in the OOP language, following best practices and design principles, which you have covered during training, this application needs to meet the requirements set on your Kanban Board
 
     The application must have a functioning front-end website and integrated API.
 
@@ -75,28 +74,36 @@ To create a CRUD application with utilisation of supporting tools, methodologies
 
 # General Approach
 
-My approach is to create a food basket that allows users to insert the name of their favourite food and 
+My approach is to create a food basket that allows users to insert the name of their favourite food to their basket and find out how much the total of the entire basket will be. The application will allow users to add delete and edit their basket if they decide to change a few items.
+
 # ERD
+Below is a Entity Relationship Diagram (ERD) showing the structure of the database. The reason why it is in green is because it has been implemented into my project
 
 
+![](https://i.imgur.com/31p6ppE.png)
 
-
-
-
-
-
-# Front End
-# Back End
 # Project Tracking
 
-Jira was used to track the progress on my work
-- what is jira
-- add screen shot
-- benefits of jira
-# Risk Assessment
+Jira was used to track the progress on my work and it was designed as a Agile Scrum Board.
+![](https://i.imgur.com/jnL6h4P.jpg)
+The board has been designed in order for users to make posts of tasks needed for completion. The board allows users to move tasks from left to right from 'To do' to 'Completion'.
+
+# Front End
+
 
 
 # Testing
+Testing was done by using JUnit for integration testing and Mockito for unit testing, as seen below.
+![](https://i.imgur.com/3efR3dR.png))
+
+The integration testing used HTTP requests to mock the repo created to see if there would be a response. The request was handled by the controlled and passed through the service. 
+
+Mockito testing was used to make a fake repo that is not really accessible. It allows us to see if various methods work well together with each other.
+
+# Risk Assessment
+
+The risk assessment of the project can be below
+![] 
 
 
 # Improvements
@@ -110,4 +117,6 @@ nav bar could be included to help navigation
 
 # Bibliography
 
-Aadil Moghal
+I would like to thank and acknoledge the QA Trainers and my frinds that helped my with obsetcles i came accross during the development of this application
+
+Project By Aadil Moghal
