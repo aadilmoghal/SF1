@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>BillyShakes</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <!--External css button for cool purposes-->
+    <link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">
+    <!--Actual css file for button, html page and other things-->
+    <link rel="stylesheet" href="/../css/stylesheet.css">
+</head>
+<body onload="displayOrders()">
+
+<div class="jumbotron">
+    <div class="container text-center">
+        <h1 style="font-family:Cute Cartoon,monospace; font-size: 120px">ORDERS</h1>
+        <p style="font-family: Cute Cartoon,monospace">View your orders and adjust!</p>
+    </div>
+</div>
+
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#" style="font-family: 'Cute Cartoon',sans-serif; font-size: 45px">BS</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="../../html/products/addProduct.html" class="button"> + Add Listing </a></li>
+                <li class="active"><a href="../../html/index.html">Home</a></li>
+                <li><a href="../../html/contact.html">Contact</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <!--<li><a href="../html/user/account.html"><span class="glyphicon glyphicon-user"></span> Your Account</a></li>-->
+                <li><a href="../../html/user/orders.html"><span class="glyphicon glyphicon-shopping-cart"></span> Orders</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div id="content">
+
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<script src="../../js/ordersFunc.js"></script>
+
+</body>
+</html>

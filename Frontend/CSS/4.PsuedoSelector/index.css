@@ -1,0 +1,20 @@
+#buttonTest {
+    color: chocolate;
+    background-color: #4e4e4e;
+    border: 3px solid purple;
+    }
+
+#buttonTest:hover {
+    background-color: aqua;
+}
+
+#buttonTest:active {
+    background-color: darkslateblue;
+}
+
+a:hover{
+    text-decoration: dotted;
+    font-size: large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+

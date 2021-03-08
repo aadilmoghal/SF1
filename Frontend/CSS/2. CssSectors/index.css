@@ -1,0 +1,42 @@
+/* lowest priority */
+/*Element Selector */
+
+h1 {
+    color:tomato;
+}
+/*Medium priority */
+/*class selector */
+
+.headerOne {
+    color:teal;
+    font-size: larger;
+}
+
+/*highest priority */
+*Id selector */
+#idOne {
+    color:forestgreen;
+}
+
+/*Multiple Element Selector */
+
+h2,
+h3,
+h4 {
+    color:blue;
+}
+
+/* Looks for class that belongs to element */
+h5.test2 {
+    font-family: fantasy;
+}
+/* child selector */
+div > .title {
+    font-variant: small-caps;
+    color: chocolate;
+}
+/* Decendant Selector */
+div >ul {
+    font-variant: small-caps;
+    color: darkslateblue;    
+}

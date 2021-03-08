@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h3>Form Webpage</h3>
+
+    <form>
+        
+        <input type="text" name="userName" placeholder="Enter Username" method="post" action="1.index.html"
+        />
+
+        <button type="submit" name="submitBtn">Submit</button>
+        <button type="submit" name="resetBtn">Not good</button>
+        <button type="submit" name="defaulttBtn">Does Nothing</button>
+    </form>
+
+    <form>
+        <input type="radio" name="Coffee" values="Coffee" /> Coffee
+        <input type="radio" name="Tea" values="Tea" /> Tea
+        <input type="radio" name="Water" values="Water" /> Water
+        <br />
+        <input type="checkbox" name="breakfastChoice" values="toast" /> Toast
+        <input type="checkbox" name="breakfastChoice" values="cereal" /> Cereal
+        <input type="checkbox" name="breakfastChoice" values="eggs" /> Eggs
+
+
+        <button type="submit" name="submitBtn">Submit</button>
+        <button type="submit" name="resetBtn">Not good</button>
+        <button type="submit" name="defaulttBtn">Does Nothing</button>     
+    </form>
+
+    <form>
+        <textarea name ="textArea" rows="7" cols="90">
+        Please enter your address
+     </textarea>
+    <button type="submit" name="submitBtn">Submit</button>
+    <button type="reset" name="resetBtn">Not Good</button>
+    </form>
+
+    <form>
+        Choose a wood type:
+        <select id="wood" name="wood">
+        <option value="Teak">Teak</option>
+        <option value="Mahogany">Mahogany</option>
+        <option value="Willow">Willow</option>
+        <option value="Oak">Oak</option>
+        </select>
+        <button type="submit" name="submitBtn">Submit</button>
+        <button type="reset" name="resetBtn">Reset</button>
+    </form>
+
+    <form>
+        <input type="text" autofocus="true" required />
+        <input type="text"/>
+        <input type="text"/>
+
+        <button type="submit" name="submitBtn">Submit</button>
+        <button type="reset" name="resetBtn">reset</button>
+        
+    </form>
+
+    <form>
+        <input type="color" name="myColour" />
+        
+        <button type="submit" name="submitBtn">Submit</button>
+        <button type="reset" name="resetBtn">reset</button>
+
+    </form>
+
+    <form>
+        <input type="text" id="firstText">
+        <label for="firstText"> Label for First Text</label>
+        <br />
+        <input type="text" id="firstText">
+        <label for="secondText"> Label for Second Text</label>
+        <br />
+        <input type="text" id="firstText">
+        <label for="thirdText"> Label for third Text</label>
+        <br />
+        <input type="text" id="firstText">
+        <label for="fourthText"> Label for Fourth Text</label>
+        <br />
+        </form>
+</body>
+</html>
