@@ -10,11 +10,10 @@
 5. [ERD](#ERD)
 6. [Project Tracking](#Project_Tracking)
 7. [Front End](#Front_End)
-8. [Back End](#Back_End)
-9. [Risk Assessment](#Risk_Assessment)
-10. [Testing](#Testing)
-11. [Improvements](#Improvements)
-12. [Bibliography](#Bibliography)
+8. [Risk Assessment](#Risk_Assessment)
+9. [Testing](#Testing)
+10. [Improvements](#Improvements)
+11. [Bibliography](#Bibliography)
 
 
 
@@ -23,7 +22,7 @@
 To create a CRUD application with utilisation of supporting tools, methodologies and technologies that encapsulate all core modules covered during training.
 
 
-# Technology 
+# Technologies
 
 The technologies I will be using to create my CRUD application are: 
 
@@ -61,13 +60,11 @@ Fully designed test suites for the application you are creating, as well as auto
 
 You must meet an acceptable level of test coverage in your backend and provide consistent reports and evidence that you have done so.
 
-Code fully integrated into a Version Control System
+Code fully integrated into a Version Control System (Git).
 
-Code built through a CI server
+Application deployed to a cloud-based virtual machine.
 
-Application deployed to a cloud-based virtual machine
-
-# General Approach
+# General Approach<a name="General_Approach"></a> 
 
 My approach is to create a food basket that allows users to insert the name of their favourite food to their basket and find out how much the total of the entire basket will be. The application will allow users to add delete and edit their basket if they decide to change a few items.
 
@@ -77,14 +74,14 @@ Below is an Entity Relationship Diagram (ERD) showing the structure of the datab
 
 ![](https://i.imgur.com/31p6ppE.png)
 
-# Project Tracking
+# Project Tracking<a name="Project_Tracking"></a> 
 
 Jira was used to track the progress on my work and it was designed as a Agile Scrum Board.
 
 ![](https://i.imgur.com/jnL6h4P.jpg)
 The board has been designed in order for users to make posts of tasks needed for completion. The board allows users to move tasks from left to right from 'To do' to 'Completion'.
 
-# Front End
+# Front End<a name="Front_End"></a> 
 Below is my final front end for the CRUD Application. 
 
 ![](https://i.imgur.com/ruTqESQ.png)
@@ -92,9 +89,6 @@ Below is my final front end for the CRUD Application.
 ![](https://i.imgur.com/1LVRbvw.png)
 
 The imagine above show that the front end allow the user to Create, Read, Update and Delete food items in their basket.
-
-
-
 
 
 # Testing
@@ -106,7 +100,7 @@ The integration testing used HTTP requests to mock the repo created to see if th
 
 Mockito testing was used to make a fake repo that is not really accessible. It allows us to see if various methods work well together with each other.
 
-# Risk Assessment
+# Risk Assessment<a name="Risk_Assessment"></a> 
 
 The risk assessment of the project can be below.
 
