@@ -31,7 +31,7 @@ import com.qa.SFIA.food.Food;
 @AutoConfigureMockMvc
 @Sql(scripts = { "classpath:food-schema.sql",
 "classpath:food-data.sql" }, executionPhase = ExecutionPhase.BEFORE_TEST_METHOD)
-@ActiveProfiles(profiles = "test")
+@ActiveProfiles(profiles = "testing") //
 public class FoodIntegrationTest {
 
 	@Autowired
@@ -42,14 +42,14 @@ public class FoodIntegrationTest {
 	
 	@Test
 	void testCreate() throws Exception {
-		Food newFood = new Food("Rice", 15.99f); // new food
+		Food newFood = new Food("Rice", 15.99f); // -------> Creating a new food entity
 		String requestBody = this.mapper.writeValueAsString(newFood); 
 		RequestBuilder request = post("/createFood").contentType(MediaType.APPLICATION_JSON).content(requestBody);
 		
-		ResultMatcher checkStatus = status().is(201);// checks if created
+		ResultMatcher checkStatus = status().is(201);// -------> This is a checker to see if it has been created
 		
 		Food savedFood = new Food("Rice", 15.99f);
-		savedFood.setId(2L);
+		savedFood.setId(2L); // -------> This will change the id to 2
 		
 		String resultBody = this.mapper.writeValueAsString(savedFood);
 		ResultMatcher checkBody = content().json(resultBody);
@@ -62,6 +62,9 @@ public class FoodIntegrationTest {
 
 		Food foodResult = this.mapper.readValue(reqBody, Food.class);
 	}
+	
+	
+	
 	
 	@Test
 	void testRead() throws Exception {

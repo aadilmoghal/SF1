@@ -8,8 +8,8 @@ import javax.persistence.Id;
 
 @Entity
 public class Food {
-	
-	@Id
+	//variables
+	@Id //primary key
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
 	
