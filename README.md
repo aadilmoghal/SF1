@@ -77,7 +77,7 @@ The technologies I will be using to create my CRUD application are:
 My approach is to create a food basket that allows users to insert the name of their favourite food to their basket and find out how much the total of the entire basket will be. The application will allow users to add delete and edit their basket if they decide to change a few items.
 
 # ERD
-Below is a Entity Relationship Diagram (ERD) showing the structure of the database. The reason why it is in green is because it has been implemented into my project
+Below is an Entity Relationship Diagram (ERD) showing the structure of the database. The reason why it is in green is because it has been implemented into my project
 
 
 ![](https://i.imgur.com/31p6ppE.png)
@@ -90,6 +90,14 @@ The board has been designed in order for users to make posts of tasks needed for
 
 # Front End
 Below is my final front end for the CRUD Application. 
+![](https://i.imgur.com/ruTqESQ.png)
+![](https://i.imgur.com/ZIcMZ1E.png)
+![](https://i.imgur.com/1LVRbvw.png)
+
+The imagine above show that the front end allow the user to Create, Read, Update and Delete food items in their basket.
+
+
+
 
 
 # Testing
@@ -108,15 +116,20 @@ The risk assessment of the project can be below
 
 # Improvements
 
-what could have done
+There are many different improvements that could have been made to take this Food basket idea to the next level. Some of the improvements would have been
 
-better interface with better colours
+- A login page for users to store their basket for personal use.
 
-nav bar could be included to help navigation
+- A second database in order for users to access more foods.
+
+- A search bar filter to browse different foods that they may be interested in.
+
+- A Navbar in order for users to navigate through the page better.
 
 
 # Bibliography
 
-I would like to thank and acknoledge the QA Trainers and my frinds that helped my with obsetcles i came accross during the development of this application
+I would like to thank and acknowledge the QA Trainers and my friends that helped my with obstacles I came across during the development of this application
 
-Project By Aadil Moghal
+Project by Aadil Moghal
+
