@@ -89,7 +89,7 @@ Jira was used to track the progress on my work and it was designed as a Agile Sc
 The board has been designed in order for users to make posts of tasks needed for completion. The board allows users to move tasks from left to right from 'To do' to 'Completion'.
 
 # Front End
-
+Below is my final front end for the CRUD Application. 
 
 
 # Testing
@@ -103,7 +103,7 @@ Mockito testing was used to make a fake repo that is not really accessible. It a
 # Risk Assessment
 
 The risk assessment of the project can be below
-![] 
+![](https://i.imgur.com/NPZgJGl.png)
 
 
 # Improvements
